@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link
+rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+crossorigin="anonymous"
+/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+    <title>Coming soon</title>
+</head>
+<body>
+ <div class=" web-container">
+
+        <div id="mySidenav" class="sidenav" >
+            <p class="font-weight-bold modal-logo">eelspace</p>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <!-- <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a> -->
+            <div class="flex-modal">
+                <div  style="width: 70%;">
+                    <div>
+                        <h2 class="font-weight-bold pb-3" style="font-size: 3rem;">At eelspace Marketplace,
+                            <figcaption>We connect sellers with buyers</figcaption>
+                             both onsite and remotely
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat..
+
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                            ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                <div style="width: 30%;" class="flex-right">
+                    <div>
+                        <h4>Contact</h4>
+                        <p>+234 814 00 66 666</p>
+                        <p>hello@eelspace.com</p>
+                        <p>102 Street 271B Uyo</p>
+                    </div>
+                    <div>
+                        <h4>Visit Our Office</h4>
+                        <p>Uyo, Akwa Ibom State</p>
+                        <p>Calabar, Cross River State</p>
+                        <p>Lagos, Lagos State</p>
+                        <p>Abuja, FCT</p>
+                        <p>Port Harcourt, Rivers State</p>
+                        <ul class="d-flex modal-links list-unstyled">
+                            <li><a href="http://"><span class="iconify" data-icon="brandico:twitter-bird" data-inline="false"></span></a></li>
+                            <li><a href="http://"><span class="iconify" data-icon="ant-design:linkedin-filled" data-inline="false"></span></a></li>
+                            <li><a href="http://"><span class="iconify" data-icon="ant-design:facebook-filled" data-inline="false"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     <header>
+         <nav class="navigation">
+
+           
+             <div class="hamburger" style="cursor:pointer" onclick="openNav()">
+                 <span class="iconify" data-icon="cil:hamburger-menu" data-inline="false"></span>
+                 <span>More Info</span>
+             </div>
+             <div>
+                 <img src="img/logo.svg" class="img-fluid" alt="logo"><span class="font-weight-bold logo-text">eelspace</span>
+             </div>
+         </nav>
+     </header>
+ 
+     <main>
+         <div class="middle-section">
+             <div>
+ 
+                 <h4 class="pb-3">WELCOME TO EELSPACE</h4>
+                 <h1 class="pb-3">We are currently working <figcaption>on a new super awesome </figcaption> <figcaption>website</figcaption> </h1>
+                 <form class="form-inline" method="post">
+                     <input type="email" class="email-form" placeholder="enter your email address"><button class="email-btn">NOTIFY ME</button>
+                 </form>
+             </div>
+             <div>
+                 <ul class="social-links list-unstyled">
+                     <li><a href="http://"><span class="iconify" data-icon="brandico:twitter-bird" data-inline="false"></span></a></li>
+                     <li><a href="http://"><span class="iconify" data-icon="ant-design:linkedin-filled" data-inline="false"></span></a></li>
+                     <li><a href="http://"><span class="iconify" data-icon="ant-design:facebook-filled" data-inline="false"></span></a></li>
+                 </ul>
+             </div>
+         </div>
+ 
+         <div class="last-section"> 
+             <div class="third-section">
+                 <div class="time-card ">
+                     <h4>267</h4>
+                     <p class="time-text">days</p>
+                 </div>
+                 <div class="time-card ">
+                     <h4>19</h4>
+                     <p class="time-text">hrs</p>
+                 </div>
+                 <div class="time-card ">
+                     <h4>13</h4>
+                     <p class="time-text">min</p>
+                 </div>
+                 <div class="time-card ">
+                     <h4>52</h4>
+                     <p class="time-text">sec</p>
+                 </div>
+             </div>
+         </div>
+     </main>
+ </div>
+
+ <script defer>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</body>
+</html>
