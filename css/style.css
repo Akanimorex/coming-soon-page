@@ -64,6 +64,7 @@ body {
 
 .email-form::placeholder {
   color: #c4c4c4;
+  padding: 20px;
 }
 .email-btn {
   background: #fa949d;
@@ -192,5 +193,14 @@ body {
   html,
   body {
     font-size: 5px;
+  }
+  .email-btn {
+    background: #fa949d;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    color: #fff;
+    height: 7rem;
+    width: 10rem;
+    font-size: 1.8rem;
   }
 }
